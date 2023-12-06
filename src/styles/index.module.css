@@ -1,6 +1,7 @@
 
 .container {
   background-color: black;
+  color: white;
 }
 
 .newsListContainer,
@@ -12,7 +13,10 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .buttonText{
-  color: black;
+  /* color:white; */
+  text-align: center;
+  margin-left: 27rem;
+  background-color: black;
 }
 .stateUserName {
   text-align: center;
