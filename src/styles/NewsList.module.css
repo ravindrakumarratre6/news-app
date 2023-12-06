@@ -1,0 +1,80 @@
+/* Default styles */
+.newslistMainContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.newslistHeading {
+  font-size: 25px;
+  color: rgb(255, 0, 212);
+  text-align: center;
+}
+
+.newslistListContainer {
+  list-style: none;
+  padding: 0;
+}
+
+.newslistDetails {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.newsListTitle {
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.newsListAuthor,
+.newsListPublish,
+.newsListDescription,
+.newsListSourceName {
+  margin: 5px 0;
+  color: rgb(182, 180, 180);
+  font-size: 20px;
+}
+
+.newsListSourceName {
+  font-weight: bold;
+}
+
+.newslistDetails a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.newslistDetails a:hover {
+  text-decoration: underline;
+}
+
+.newslistDetails img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.loding {
+  font-size: 25px;
+  color: white;
+}
+
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 600px) {
+  .newslistDetails {
+    padding: 10px;
+  }
+
+  .newsListTitle {
+    font-size: 18px;
+  }
+
+  /* Assuming you have a .newslistImage class for images */
+  .newslistImage {
+    max-width: 100%;
+  }
+}
