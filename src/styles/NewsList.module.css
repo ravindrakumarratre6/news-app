@@ -1,0 +1,94 @@
+/* Default styles */
+.newslistMainContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.newslistHeading {
+  font-size: 25px;
+  color: rgb(255, 0, 212);
+  text-align: center;
+}
+
+.newslistListContainer {
+  list-style: none;
+  padding: 0;
+}
+
+.newslistDetails {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.newsListTitle {
+  font-size: 20px;
+  color: rgb(236, 56, 56);
+}
+
+.newsListAuthor,
+.newsListPublish,
+.newsListDescription,
+.newsListSourceName {
+  margin: 5px 0;
+  color: rgb(224, 210, 210);
+  font-size: 20px;
+}
+
+.newsListSourceName {
+  font-weight: bold;
+}
+
+.newslistDetails a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.newslistDetails a:hover {
+  text-decoration: underline;
+}
+
+.newslistDetails img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.loading {
+  font-size: 25px;
+  color: white;
+}
+
+/* Button styles */
+.addButton {
+  background-color: #4caf50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 15px; /* Padding around the text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor style on hover */
+  font-size: 16px; /* Font size */
+}
+
+.addButton:hover {
+  background-color: #45a049; /* Darker green background color on hover */
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 600px) {
+  .newslistDetails {
+    padding: 10px;
+  }
+
+  .newsListTitle {
+    font-size: 18px;
+  }
+
+  /* Assuming you have a .newslistImage class for images */
+  .newslistImage {
+    max-width: 100%;
+  }
+}
